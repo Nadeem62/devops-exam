@@ -1,11 +1,6 @@
 pipeline{
     agent any
     stages{
-        stage("git repo"){
-            steps{
-            git: https://github.com/Nadeem62/devops-exam.git
-                }
-        }
         stage("TF Init"){
             steps{
                 echo "Executing Terraform Init"

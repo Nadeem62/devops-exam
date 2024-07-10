@@ -1,3 +1,7 @@
+provider "aws" {
+  region  = "ap-south-1" # Don't change the region
+}
+
 resource "s3_bucket" "exam_bucket"{
   Region = "ap-south-1"
   Key = "Nadeem.Shaikh"

@@ -9,7 +9,7 @@ resource "aws_route_table" "test" {
   }
 }
 
-resource "aws_subnet" "test" {
+resource "aws_subnet" "private_subnet" {
   cidr_block = "10.0.1.0/24"
   vpc_id = "aws_vpc.vpc.id"
 }

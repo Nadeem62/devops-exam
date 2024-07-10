@@ -18,7 +18,7 @@ try:
   }
 except Exception as e:
   return {
-    'statusCode' : 200,
+    'statusCode' : 500,
     'body': str(e)
   }
   

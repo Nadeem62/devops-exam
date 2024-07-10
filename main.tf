@@ -1,3 +1,8 @@
+resource "s3_buket" "467.devops.candidate.exam"{
+  Region: "ap-south-1"
+  Key: "Nadeem.Shaikh"
+}
+
 resource "aws_vpc" "vpc" {
   cidr_bock = "10.0.1.0/24"
 }

@@ -1,6 +1,6 @@
 resource "s3_bucket" "exam_bucket"{
-  Region: "ap-south-1"
-  Key: "Nadeem.Shaikh"
+  Region = "ap-south-1"
+  Key = "Nadeem.Shaikh"
 }
 
 resource "aws_vpc" "vpc" {

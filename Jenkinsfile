@@ -33,7 +33,6 @@ pipeline{
         stage("Invoke Lambda"){
             steps{
                 echo "Invoking your AWS Lambda"
-                sh 'aws lambda invoke --function-name exam-lambda --payload '{"name": "Nadeem.Shaikh"}' output.json'
             }
         }
     }

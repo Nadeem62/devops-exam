@@ -1,4 +1,4 @@
-resource "s3_bucket" "467.devops.candidate.exam"{
+resource "s3_bucket" "exam_bucket"{
   Region: "ap-south-1"
   Key: "Nadeem.Shaikh"
 }

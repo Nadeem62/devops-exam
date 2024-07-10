@@ -18,6 +18,6 @@ resource "aws_iam_role" "lambda" {
 }
 
 resource "aws_lambda_function" "exam_lambda" {
-  function_name = 
+  function_name = "exam_lambda_function"
   role          = aws_iam_role.lambda
 }
